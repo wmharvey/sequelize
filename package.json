@@ -1,0 +1,30 @@
+{
+  "name": "sequelize_1-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmharvey/sequelize.git"
+  },
+  "author": "Whitney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmharvey/sequelize/issues"
+  },
+  "homepage": "https://github.com/wmharvey/sequelize#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "pg": "^4.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.18.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^1.0.0"
+  }
+}
